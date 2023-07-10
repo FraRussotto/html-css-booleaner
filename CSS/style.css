@@ -1,19 +1,26 @@
-/* *{ */
-  /* margin: 0; */
-  /* padding: 0; */
-/* } */
+/* general */
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 header div{
   background-color: rgb(0, 128, 255);
   background-image: url(../img/pattern.png);
   height: 170px;
 }
 
-.container{
-  text-align: center;
-  width: 1200px;
-}
+/* main */
+
 span{
   background-color: yellow;
+}
+
+/* tabella */
+.up{
+  background-color: aqua;
+  margin: 0px;
 }
 /* footer */
 
@@ -29,6 +36,7 @@ footer{
 }
 #monitor{
   background-image: url(../img/monitor.jpg);
+  margin-bottom: 5px;
 }
 
 #graph{
