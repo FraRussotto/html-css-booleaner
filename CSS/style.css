@@ -7,3 +7,30 @@ header div{
   background-image: url(../img/pattern.png);
   height: 170px;
 }
+
+.container{
+  text-align: center;
+  width: 1200px;
+}
+span{
+  background-color: yellow;
+}
+/* footer */
+
+footer{
+  color: gray;
+}
+#monitor, #graph{
+  color: white;
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+
+}
+#monitor{
+  background-image: url(../img/monitor.jpg);
+}
+
+#graph{
+  background-image: url(../img/graph.jpg);
+}
