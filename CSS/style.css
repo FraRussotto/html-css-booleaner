@@ -2,7 +2,6 @@
 
 *{
   margin: 0px;
-  padding: 0px;
 }
 
 header div{
@@ -13,18 +12,51 @@ header div{
 
 /* main */
 
+.container{
+  margin: auto;
+  width: 60%;
+}
+
+#sottotitolo{
+  margin-top: 5px;
+}
+
 span{
   background-color: yellow;
 }
 
-/* tabella */
-.up{
-  background-color: aqua;
-  margin: 0px;
+#subtitles{
+  font-size: 0.8rem;
+  margin-bottom: 20px;
 }
+
+.list{
+  margin-top: 20px;
+}
+
+/* tabella */
+.ciano{
+  background-color: rgb(119, 211, 211);
+}
+
+.big{
+  width: 60%;
+}
+table{
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.up{
+  color: white;
+  text-align: left;
+  background-color: rgb(83, 161, 206);
+}
+
 /* footer */
 
 footer{
+  margin-top: 20px;
   color: gray;
 }
 #monitor, #graph{
