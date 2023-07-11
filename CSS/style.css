@@ -31,9 +31,45 @@ header img.logo {
   width: 80%;
 }
 
-#sottotitolo{
-  margin-top: 5px;
+p.sottotitolo:last-child {
+  margin-bottom: 15px;
 }
+
+.sottotitolo {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.sottotitolo a,
+.sottotitolo a:visited {
+  text-decoration: none;
+  color: rgb(99, 158, 248);
+}
+
+/* Immagini di Tim */
+
+.imgContainer {
+  width: 100%;
+}
+
+.imgContainer div {
+  height: 400px;
+  display: inline-block;
+  width: 45%;
+}
+
+.imgElement.tim1 {
+  background-image: url(../img/tim-1.jpg);
+  background-size: cover;
+}
+
+.imgElement.tim2 {
+  background-image: url(../img/tim-2.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
 
 span{
   background-color: yellow;
