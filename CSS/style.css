@@ -4,17 +4,31 @@
   margin: 0px;
 }
 
-header div{
-  background-color: rgb(0, 128, 255);
+header {
+  position: relative;
+  background-color: rgb(99, 158, 248);
   background-image: url(../img/pattern.png);
-  height: 170px;
+  background-size: 25%;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+header .logoContainer {
+  width: 80%;
+  margin: auto;
+}
+
+header img.logo {
+  width: 15%;
+  position: absolute;
+  bottom: 0px;
 }
 
 /* main */
 
 .container{
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 
 #sottotitolo{
