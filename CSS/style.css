@@ -105,22 +105,23 @@ table{
 
 /* footer */
 
-footer{
+footer {
   margin-top: 20px;
   color: gray;
 }
-#monitor, #graph{
+#monitor, #graph {
   color: white;
   background-size: cover;
+  font-weight: 700;
   width: 300px;
   height: 150px;
-
+  padding: 15px 0 0 15px;
 }
-#monitor{
+#monitor {
   background-image: url(../img/monitor.jpg);
   margin-bottom: 5px;
 }
 
-#graph{
+#graph {
   background-image: url(../img/graph.jpg);
 }
